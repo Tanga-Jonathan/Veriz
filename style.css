@@ -6,6 +6,10 @@ body{
     font-family: Poppins;
     font-size: 12px;
 }
+.blur-section {
+    backdrop-filter: blur(250px);
+  }
+  
 a{
     text-decoration: none;
 }
