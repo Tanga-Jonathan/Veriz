@@ -3,12 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="image/logo.jpg" type="image/x-icon">
     <link rel="stylesheet" href="info.css">
     <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
     <title>Document</title>
 </head>
 <body>
     <div class="container">
+    <header>
+       <nav>         
+            <a href="index.php" class="active">Home</a>
+            <a href="services.php">Services</a>
+            <a href="contact.php">Contacts</a>
+            <a href="Info.php">Info</a>
+        </nav>
+    </header>
         <div class="header">
             <h1>About Us</h1>
         </div>
@@ -20,7 +29,7 @@
             
             </div>
             <div class="Vision">
-                <img src="image/Untitled.png"/>
+                <img src="image/mission.jpg"/>
                 <div class="desc">Mission</div>
                 <div class="about">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda similique possimus sapiente ducimus, consequuntur voluptates placeat</div>
             
@@ -37,6 +46,14 @@
             </div>
         </div>      
     </div>
+
+
+
+<section>
+    <?php include 'footer.php';?>
+</section>
+
+
     <script src="bootstrap/js/bootstrap.js"></script>
 </body>
 </html>

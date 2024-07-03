@@ -3,19 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="shortcut icon" href="image/logo.jpg" type="image/x-icon">
     <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
     <link rel="stylesheet" href="style.css">
+    <title>Document</title>
 </head>
 <body>
     <header>
-        
-
-        <nav>         
-            <a href="index.html" class="active">Home</a>
-            <a href="services.html">Services</a>
-            <a href="contact.html">Contacts</a>
-            <a href="Info.html">Info</a>
+       <nav>         
+            <a href="index.php" class="active">Home</a>
+            <a href="services.php">Services</a>
+            <a href="contact.php">Contacts</a>
+            <a href="Info.php">Info</a>
         </nav>
     </header>
 
@@ -115,6 +114,13 @@
     </div>
 
 
+
+
+    
+<section>
+    <?php include 'footer.php';?>
+</section>
+    
     
     <script src="scr.js"></script>
 </body>

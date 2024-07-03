@@ -167,7 +167,7 @@ font-weight: 1000;
 }
 nav a:hover,
 nav a.active{
-    background: orangered;
+    background: white;
 }
 
 /* animation */

@@ -6,36 +6,6 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
-nav a{
-    text-decoration: none;
-    color: #fff;
-    padding: 6px 15px;
-    border-radius: 20px;
-    margin-left: 70px;
-    font-weight: 500;    
-    }
-    nav a:hover,
-    nav a.active{
-        background: #00bcd4;
-    }
-    a{
-        text-decoration: none;
-    }
-    header{
-        width: 1140px;
-        max-width: 80%;
-        margin: auto;
-        height: 50px;
-        display: flex;
-        align-items: center;
-        position: relative;
-        z-index: 100;
-    }
-    header a{
-        font-size: 20px;
-        color: #fff;
-        margin-right: 40px;
-    }
 .contact{
     position: relative;
     min-height: 100vh;

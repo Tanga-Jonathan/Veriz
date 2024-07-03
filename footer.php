@@ -3,9 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="image/logo.jpg" type="image/x-icon">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="footer.css">
     <!-- <link rel="stylesheet" href="style.css"> -->
     <title>Contact</title>
 </head>
@@ -13,23 +12,6 @@
     
     
  <section class="contact">
-    <header>
-        <nav>         
-            <a href="index.php" class="active">Home</a>
-            <a href="services.php">Services</a>
-            <a href="contact.php">Contacts</a>
-            <a href="Info.php">Info</a>
-        </nav>
-    </header>
-        <div class="content">
-        <h2 style="color: #fff; margin-top: 50px;"><u>Contact Us</u></h2>
-        <p>Verizon General Trading Co. Ltd is managed by qualified Directors and senior
-            management, staff is our most valuable asset. The art of profession and qualified
-            personnel gives us confidence to meet your highest possible expectations. We
-            provide competitive pricing win-win packages, which helped us build aformidable
-            reputation to date. The company prides itself in being tne preferred few companies
-            that give finest to any given work.</p>
-    </div>
     <div class="container">
         <div class="contactInfo">
             <div class="box">
@@ -80,11 +62,6 @@
         </div>        
     </div>
  </section>
-
-
-
- 
-
  <?php if (isset($error)) : ?>
   <p style="color: red;"><?php echo $error; ?></p>
 <?php elseif (isset($success)) : ?>

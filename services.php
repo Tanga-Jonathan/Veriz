@@ -3,12 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="shortcut icon" href="image/logo.jpg" type="image/x-icon">
+    <title>Services</title>
     <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <section class="blur-section">
+        <section class="blur-section">
+    <header>
+        <nav>         
+            <a href="index.php" class="active">Home</a>
+            <a href="services.php">Services</a>
+            <a href="contact.php">Contacts</a>
+            <a href="Info.php">Info</a>
+        </nav>
+    </header>
         <div class="carousel">
             <!-- list item -->
             <div class="list">
@@ -160,6 +169,19 @@
         </div>
     
     </section>
+
+
+
+
+
+
+
+<section>
+    <?php include 'footer.php';?>
+</section>
+
+
+
     <script src="scr.js"></script>
     <script src="bootstrap/js/bootstrap.js"></script>
 </body>
